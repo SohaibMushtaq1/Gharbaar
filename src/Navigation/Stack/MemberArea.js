@@ -2,10 +2,9 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import BottomBarNavigation from '../Bottom';
 import { MemberArea } from '../../Screens'
-import { TouchableOpacity, View, Image, Dimensions, StyleSheet, Pressable } from 'react-native';
-import { Avatar, Badge, Icon, withBadge } from 'react-native-elements';
+import { TouchableOpacity, View, Image, StyleSheet, Pressable } from 'react-native';
+import { Avatar, Badge } from 'react-native-elements';
 import { Feather } from '@expo/vector-icons';
-import { NavigationContainer } from '@react-navigation/native';
 
 const Stack = createNativeStackNavigator();
 
@@ -46,7 +45,7 @@ function MemberAreaStack() {
                                     <Badge
                                         status="error"
                                         value={10}
-                                        containerStyle={{ position: 'absolute', bottom: 15, left: 20 }}
+                                        containerStyle={{ position: 'absolute', bottom: 15, left: 15 }}
                                     />
                                 </Pressable>
                                 <TouchableOpacity>

@@ -7,6 +7,8 @@ import {
     Foundation,
     Ionicons
 } from '@expo/vector-icons';
+import TopTabBar from '../Stack/Inquiries';
+import ProjectUpdatesStack from '../Stack/ProjectUpdates'
 
 const Tab = createBottomTabNavigator();
 
@@ -36,7 +38,7 @@ export default function App() {
                     )
                 }}
                 name="ProjectUpdates"
-                component={MemberArea.BottomBar.ProjectUpdates} />
+                component={ProjectUpdatesStack} />
             <Tab.Screen
                 options={{
                     tabBarActiveTintColor: 'blue',
@@ -56,7 +58,7 @@ export default function App() {
                     )
                 }}
                 name="Inquiries"
-                component={MemberArea.BottomBar.Inquiries} />
+                component={TopTabBar} />
         </Tab.Navigator>
     );
 }

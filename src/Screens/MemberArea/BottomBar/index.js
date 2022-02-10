@@ -1,7 +1,7 @@
 import OverView from "./OverView";
 import MyUnitDetails from "./MyUnitDetails";
-import ProjectUpdates from "./ProjectUpdates";
-import Inquiries from "./Inquiries";
+import * as ProjectUpdates from "./ProjectUpdates";
+import * as Inquiries from "./Inquiries";
 
 export {
     OverView,

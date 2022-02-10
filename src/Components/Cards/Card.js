@@ -23,9 +23,9 @@ const styles = StyleSheet.create({
         elevation: 12,
     },
     avatar: {
-        height: 55,
-        width: 55,
-        borderRadius: 55,
+        height: 40,
+        width: 40,
+        borderRadius: 40,
         left: 20,
         top: 20
     },
@@ -41,12 +41,13 @@ const styles = StyleSheet.create({
         flexDirection: 'column'
     },
     nameText: {
-        fontSize: 16,
+        fontSize: 14,
         fontWeight: 'bold'
     },
     dateText: {
         color: '#959595',
-        marginTop: 5
+        marginTop: 5,
+        fontSize:14
     }
 });
 

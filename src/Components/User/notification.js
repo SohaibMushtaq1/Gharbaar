@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         flexWrap: 'wrap',
         alignItems: 'center',
         justifyContent: 'flex-start',
-        alignItems: 'center',
+        paddingRight:wp(20)
     },
     date: {
         color: '#075595',
